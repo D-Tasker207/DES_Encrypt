@@ -22,6 +22,8 @@
     Run DES.py and input text to terminal prompt. Encrypted and decrypted text is returned to standard output
 
 <h4>As Package:</h4>
-    <b>To Encrypt:</b> Call Encryt() function in DES.py, parameters are text(required, encoded as ascii string) and key (optional, 64bit hexadecimal string). Function returns encrypted text (hexadecimal encoded string) and ke  (64bit hexadecimal string).
+<ul>
+<li><b>To Encrypt:</b> Call Encryt() function in DES.py, parameters are text(required, encoded as ascii string) and key (optional, 64bit hexadecimal string). Function returns encrypted text (hexadecimal encoded string) and ke  (64bit hexadecimal string).</li>
 
-    <b>To Decrypt:</b> Call Decrypt() function in DES, parameters are encrypted string (required, hexadecimal encoded string), and decryption key (required, hexadecimal encoded string). Function returns decrypted text (ascii encoded string).
+<li><b>To Decrypt:</b> Call Decrypt() function in DES, parameters are encrypted string (required, hexadecimal encoded string), and decryption key (required, hexadecimal encoded string). Function returns decrypted text (ascii encoded string).</li>
+</ul>
