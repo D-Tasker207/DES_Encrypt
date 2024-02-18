@@ -6,7 +6,7 @@ def permute(arr, permutation):
 
 def shift(text, n):
     #Shift the given text left by n bits
-    return text[n:] + text[:n]
+    return ''.join((text[n:], text[:n]))
 
 def xor(text1, text2):
     #XOR the two given texts

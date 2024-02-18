@@ -1,5 +1,3 @@
-import math
-
 #Conversions between different representations of text data
 
 def text2hex(text):

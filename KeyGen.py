@@ -28,4 +28,4 @@ if __name__ == "__main__":
     print("Main encryption key: {}\n".format(key))
     subKeys = get_sub_keys(key)
     print("SubKeys:")
-    print(',\n'.join(x for x in subKeys))
+    print(',\n'.join(bin2hex(x) for x in subKeys))
